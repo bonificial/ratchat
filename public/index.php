@@ -1,4 +1,4 @@
-<?php include '../bin/chat-server.php'?>
+
 <!DOCTYPE html>
 <html>
 <head lang="en">
