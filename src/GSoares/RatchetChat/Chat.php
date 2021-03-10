@@ -11,6 +11,7 @@ class Chat implements MessageComponentInterface
     public function __construct()
     {
         $this->clients = new \SplObjectStorage;
+        echo 'Server Started';
     }
 
     public function onOpen(ConnectionInterface $conn)
